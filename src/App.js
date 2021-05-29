@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './Ul/Navbar/Navbar';
+import Home from './Ul/Home/Home';
+import Services from './Ul/Services/Services';
+import 'animate.css'
+import Benefit from './Values/Benefits';
+import Success from './Values/Waytosuccess';
+import Counter from './Values/Counter';
+import Technologies from './Ul/Technologies/Technologies';
+import Contact from './Ul/Contact/Contact';
+import Footer from './Ul/Footer/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App = () =>{
+  return(
+    <>
+<Navbar />
+<Home />
+<Services />
+<Benefit />
+<Success />
+<Counter />
+<Technologies />
+<Contact />
+<Footer />
+    </>
+  )
 }
+
+
 
 export default App;

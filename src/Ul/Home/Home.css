@@ -1,0 +1,15 @@
+.background {
+    position: relative;
+    background : #0c0c0c;
+    color: #FFF;
+    opacity:0.6;
+    height:835px;
+
+}
+
+ @media (max-height : 850px) {
+    .img {
+        height:835px;
+        
+    }
+} 
