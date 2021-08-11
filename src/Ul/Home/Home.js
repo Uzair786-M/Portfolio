@@ -1,42 +1,56 @@
 import React from 'react';
+import {Carousel} from 'react-bootstrap';
 
-import './Home.css';
+// import './Home.css';
 
 const home = () =>{
     
     return(
         <>
+
+        <div className="container-fluid" id="Home">
+          <div className="row">
+            <div className="col">
+
+
+            <Carousel fade>
+  <Carousel.Item>
+    <img
+      className="d-block w-100" style={{height:"650px"}}
+      src="Home1.jpg"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>Delivering the tools </h3>
+      <p>You need to succeed</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100" style={{height:"650px"}}
+      src="Home2.jpg"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Your business is our business</h3>
+      <p> Software Engineers are here to fuel up your business.Quality is priority for us because our reputation goes with it</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+ 
+</Carousel>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
      
-
-        <div className="fluid-container text-white" style={{fontFamily: 'Open Sans'}} id="Home">
-
-<img src="Image 2.jpg" className="img w-100" style={{position:"absolute"}}/>
 
 
  
-        <div className="background">
-
-       <div className="row">
-
-       <div className="col m-5 p-5">
-       
-       <p style={{fontSize : "60px"}} className="mt-5 px-5 font-italic animate__animated animate__flipInX">Delivering the tools</p>
-       <h1 style={{fontSize : "60px"}} className="ml-5 font-italic animate__animated animate__flipInX animate__delay-1s"  >you need to <br />succeed</h1>
-
-       <p className="m-5 font-italic animate__animated animate__flipInX animate__delay-2s">
-       Your business is our business, Software Engineers are <br />here to fuel-up your business. Quality is priority for us,<br /> because our reputation goes with it.
-       </p>
-
-       </div>
-
-      
-
-       
-
-       </div>
-       </div>
-
-        </div>
 
         </>
     )

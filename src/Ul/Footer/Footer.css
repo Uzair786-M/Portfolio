@@ -1,0 +1,11 @@
+@media (max-width : 640px){
+    .rightmargin{
+        margin-right: 6rem;
+    }
+}
+
+@media (min-width:980px) {
+    .rightmargin{
+        margin-left: 3rem;
+    }
+}

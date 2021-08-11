@@ -7,8 +7,10 @@ import Benefit from './Values/Benefits';
 import Success from './Values/Waytosuccess';
 import Counter from './Values/Counter';
 import Technologies from './Ul/Technologies/Technologies';
+import Team from './Ul/Team/Team';
 import Contact from './Ul/Contact/Contact';
 import Footer from './Ul/Footer/Footer';
+
 
 
 
@@ -19,11 +21,13 @@ const App = () =>{
 <Home />
 <Services />
 <Benefit />
-<Success />
+<Success /> 
 <Counter />
 <Technologies />
+<br /><br />
+<Team />
 <Contact />
-<Footer />
+ <Footer />
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -38,11 +38,11 @@ const Footer = () => {
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <h1 className="font-italic  mt-5 px-5">Contact</h1>
                         <ul>
-                            <li><div className="mt-4 px-5">{Icon1}<span className="mx-3 font-italic">Islamabad,Pakistan</span></div></li>
+                            <li><div className="mt-4 px-2">{Icon1}<span className="mx-3 font-italic">Islamabad,Pakistan</span></div></li>
 
-                            <li><div className="mt-4 px-5">{Icon2}<span className="mx-3 font-italic">Phone:<tel tel="+923471056128">+923471056128</tel></span></div></li>
+                            <li><div className="mt-4 px-2">{Icon2}<span className="mx-3 font-italic">Phone:<tel tel="+923471056128">+923471056128</tel></span></div></li>
 
-                            <li><div className="mt-4 px-5">{Icon3}<span className="mx-1 font-italic">Email:<email>Uzairmaqbool050@gmail.com</email></span></div></li>
+                            <li><div className="mt-4 px-1">{Icon3}<span className="mx-1 font-italic">Email:<email>Uzairmaqbool050@gmail.com</email></span></div></li>
                         </ul>
 
 
@@ -68,8 +68,8 @@ const Footer = () => {
                             <span className="m-4 px-2"><a href="#">{Icon4}</a></span>
                             <span className="m-4"><a href="#">{Icon5}</a></span>
                             <span className="m-4"><a href="#">{Icon6}</a></span>
-                            <span className="m-4"><a href="#">{Icon7}</a></span>
-                            <hr className="w-75 mt-4 bg-white"/>
+                           
+                            <hr className="w-50  bg-white rightmargin"/>
                             <p className="font-italic" style={{fontFamily:"Open Sans"}}>Platoearn Technologies Pvt Ltd © 2021. All Rights Reserved</p>
                         </div>
                         
