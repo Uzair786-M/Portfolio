@@ -4,11 +4,11 @@ import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy, faThumbsUp, faPodcast, faUserFriends } from '@fortawesome/free-solid-svg-icons';
 
-const Icon1 = <FontAwesomeIcon icon={faTrophy} />
+const Icon1 = <FontAwesomeIcon icon={faTrophy} color="red"/>
 
-const Icon2 = <FontAwesomeIcon icon={faThumbsUp} />
-const Icon3 = <FontAwesomeIcon icon={faPodcast} />
-const Icon4 = <FontAwesomeIcon icon={faUserFriends} />
+const Icon2 = <FontAwesomeIcon icon={faThumbsUp} color="#384c74"/>
+const Icon3 = <FontAwesomeIcon icon={faPodcast} color="#384c74"/>
+const Icon4 = <FontAwesomeIcon icon={faUserFriends} color="#384c74"/>
 
 
 
@@ -59,15 +59,17 @@ const Success = () => {
 
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
 
-                        <div className="jumbotron" style={{ borderRadius: "400px 400px 400px 400px" }} data-aos="zoom-in">
+                        <div className="jumbotron" style={{ borderRadius: "50%" }} data-aos="zoom-in">
 
                             <div className="row">
                                 <div className="col-6" data-aos="fade-right">
-                                    <img src="1.png" className="w-75" />
+                                <img src="device.png" style={{zIndex:"100",position:"absolute",width:"60%"}}/>
+                                    <img src="1.png"  style={{zIndex:"200",position:"relative",width:"57%",height:"83%",marginLeft:"4%",marginTop:"12%"}}/>
                                 </div>
 
                                 <div className="col-6" data-aos="fade-left">
-                                    <img src="2.png" className="w-75" />
+                                <img src="device.png" style={{zIndex:"100",position:"absolute",width:"60%"}}/>
+                                    <img src="2.png" style={{zIndex:"200",position:"relative",width:"57%",height:"83%",marginLeft:"4%",marginTop:"12%"}} />
                                 </div>
 
                             </div>

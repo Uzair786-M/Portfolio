@@ -21,7 +21,7 @@ const card = (props) => {
         
         <Card.Body>
         <div>{props.Icon}</div>
-          <Card.Title>{props.Cont.Name}</Card.Title>
+          <Card.Title style={{fontWeight:"bold"}}>{props.Cont.Name}</Card.Title>
           <Card.Text>
            {props.Cont.content}
       </Card.Text>

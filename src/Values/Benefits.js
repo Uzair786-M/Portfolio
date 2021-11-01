@@ -4,18 +4,20 @@ import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle,faAngleLeft,faAngleRight,faStar,faChartLine,faWrench } from '@fortawesome/free-solid-svg-icons';
 import './Benefit.css';
-const Icon1 = <FontAwesomeIcon icon={faCheckCircle} />
-const Icon2 = <FontAwesomeIcon icon={faAngleLeft} />
-const Icon3 = <FontAwesomeIcon icon={faAngleRight} />
-const Icon4 = <FontAwesomeIcon icon={faStar} />
-const Icon5 = <FontAwesomeIcon icon={faChartLine} />
-const Icon6 = <FontAwesomeIcon icon={faWrench} />
+const Icon1 = <FontAwesomeIcon icon={faCheckCircle} color="red"/>
+const Icon2 = <FontAwesomeIcon icon={faAngleLeft} color="#384c74"/>
+const Icon3 = <FontAwesomeIcon icon={faAngleRight} color="#384c74"/>
+const Icon4 = <FontAwesomeIcon icon={faStar} color="#384c74"/>
+const Icon5 = <FontAwesomeIcon icon={faChartLine} color="#384c74"/>
+const Icon6 = <FontAwesomeIcon icon={faWrench} color="#384c74"/>
 
 const Benefit = () => {
 
 useEffect(() =>{
     Aos.init({duration:2000})
 },[])
+
+// #6442ad
 
     return (
         <>
@@ -26,15 +28,17 @@ useEffect(() =>{
 
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
 
-                        <div className="jumbotron" style={{ borderRadius: "400px 400px 400px 400px" }} data-aos="zoom-in">
+                        <div className="jumbotron" style={{ borderRadius: "50%"}} data-aos="zoom-in">
 
                             <div className="row">
                                 <div className="col-6" data-aos="fade-right">
-                                    <img src="1.png" className="w-75" />
+                                    <img src="device.png" style={{zIndex:"100",position:"absolute",width:"60%"}}/>
+                                    <img src="1.png" style={{zIndex:"200",position:"relative",width:"57%",height:"83%",marginLeft:"4%",marginTop:"12%"}}/>
                                 </div>
 
                                 <div className="col-6" data-aos="fade-left">
-                                    <img src="2.png" className="w-75" />
+                                <img src="device.png" style={{zIndex:"100",position:"absolute",width:"60%"}}/>
+                                    <img src="2.png" style={{zIndex:"200",position:"relative",width:"57%",height:"83%",marginLeft:"4%",marginTop:"12%"}}/>
                                 </div>
 
                             </div>

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import '../../platoearn/node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import '../../Portfolio/node_modules/bootstrap/dist/css/bootstrap.css'
 
 
 ReactDOM.render(

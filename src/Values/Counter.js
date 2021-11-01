@@ -45,7 +45,7 @@ const Counter = () => {
     return (
         <>
 
-            <div className="container-fluid" style={{fontFamily: 'Open Sans',backgroundImage: "linear-gradient(180deg, black, gray)"}}>
+            <div className="container-fluid" style={{fontFamily: 'Open Sans',backgroundImage: "linear-gradient(180deg,#384c74,#384c74)",padding:"30px",boxShadow:"0 5px 15px 0px rgba(0,0,0,0.6)"}}>
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div className="text-white text-center mt-5 display-4 font-italic" style={{fontFamily:'Open-Sans'}}>Businesses rely on us</div>

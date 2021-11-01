@@ -42,7 +42,7 @@ const Footer = () => {
 
                             <li><div className="mt-4 px-2">{Icon2}<span className="mx-3 font-italic">Phone:<tel tel="+923471056128">+923471056128</tel></span></div></li>
 
-                            <li><div className="mt-4 px-1">{Icon3}<span className="mx-1 font-italic">Email:<email>Uzairmaqbool050@gmail.com</email></span></div></li>
+                            <li><div className="mt-4 px-1">{Icon3}<span className="mx-1 font-italic">Email:<email>contactdreamcoder@gmail.com</email></span></div></li>
                         </ul>
 
 
@@ -65,12 +65,12 @@ const Footer = () => {
 
                         <h1 className="font-italic  mt-5 px-5">Follow us</h1>
                         <div className="mt-5">
-                            <span className="m-4 px-2"><a href="#">{Icon4}</a></span>
-                            <span className="m-4"><a href="#">{Icon5}</a></span>
-                            <span className="m-4"><a href="#">{Icon6}</a></span>
+                            <span className="m-4 px-2"><a href="https://web.facebook.com/?_rdc=1&_rdr">{Icon4}</a></span>
+                            <span className="m-4"><a href="https://twitter.com/?lang=en">{Icon5}</a></span>
+                            <span className="m-4"><a href="https://www.instagram.com/?hl=en">{Icon6}</a></span>
                            
                             <hr className="w-50  bg-white rightmargin"/>
-                            <p className="font-italic" style={{fontFamily:"Open Sans"}}>Platoearn Technologies Pvt Ltd © 2021. All Rights Reserved</p>
+                            <p className="font-italic" style={{fontFamily:"Open Sans"}}>DreamCoders Technologies Pvt Ltd © 2021. All Rights Reserved</p>
                         </div>
                         
                     </div>
