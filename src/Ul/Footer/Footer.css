@@ -1,11 +1,13 @@
-@media (max-width : 640px){
-    .rightmargin{
-        margin-right: 6rem;
-    }
+@media (max-width: 640px) {
+  .center {
+    /* margin-right: 6rem; */
+    display: flex;
+    justify-content: center;
+  }
 }
 
-@media (min-width:980px) {
-    .rightmargin{
-        margin-left: 3rem;
-    }
+@media (min-width: 980px) {
+  .center {
+    margin-left: 3rem;
+  }
 }

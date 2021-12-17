@@ -1,0 +1,86 @@
+.backGroundColorTop {
+  background-color: transparent;
+}
+.backGroundColorBottom {
+  background-color: #6f42c1;
+}
+
+@media (max-width: 500px) {
+  .backGroundColorTop {
+    background-color: transparent;
+  }
+  .backGroundColorBottom {
+    background-color: #6f42c1;
+  }
+}
+
+.textColor {
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .textColor {
+    background-color: #6f42c1;
+  }
+}
+
+@media (max-width: 768px) {
+  .textColor {
+    background-color: #6f42c1;
+  }
+}
+
+@media (max-width: 980px) {
+  .textColor {
+    background-color: #6f42c1;
+  }
+}
+
+.logo {
+  margin-left: 5rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    margin-left: 0rem;
+  }
+}
+.image {
+  width: 100%;
+  height: 80px;
+}
+
+@media (max-width: 1080px) {
+  .image {
+    width: 100%;
+    height: 90px;
+  }
+}
+
+@media (max-width: 980px) {
+  .image {
+    width: 100%;
+    height: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    height: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .image {
+    width: 100%;
+    height: 70px;
+  }
+}

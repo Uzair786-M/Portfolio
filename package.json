@@ -1,5 +1,5 @@
 {
-  "name": "platoearn",
+  "name": "dreamcoders",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,15 +15,11 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
-    "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "axios": "^0.24.0",
     "bootstrap": "^4.6.0",
-    "emailjs-com": "^3.2.0",
     "font-awesome": "^4.7.0",
-    "mdbreact": "^5.0.2",
-    "radium": "^0.26.1",
     "react": "^17.0.1",
-    "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.5.2",
     "react-bootstrap-counter": "^1.0.1",
     "react-countup": "^4.3.3",
